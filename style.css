@@ -1,0 +1,89 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+header{
+	 background-image:url("imagenes/fondomenu.jfif");
+	margin: 0 150px;
+	font-family: "calibri";
+}
+header h1{
+	color: #fff;
+}
+body{
+	background-image:url("imagenes/fondoblanco2.jpg");
+	font-family: "calibri";
+}
+.cuerpo{
+	margin: 0 150px;
+	font-family: "calibri";
+}
+#cabecera{
+	background-image:url("imagenes/fondoazul.jpg");
+	font-family: "calibri";
+	font-size: 14px;
+    color:white;
+    padding: 20px;
+}
+#justificacion{
+	background-image:url("imagenes/fondoplomo.jpg");
+	font-family: "calibri";
+	font-size: 20px;
+    color:black;
+    padding: 20px;
+    font-weight:bold;	
+}
+
+#menu{
+	text-align: center;
+}
+#menu li{
+	display: inline;
+
+}
+#menu li:hover{
+	background: #C5014F;
+}
+#menu li a{
+	text-decoration: none;
+}
+#right{
+	float: right;
+	width: 300px;
+	background: #eee;
+}
+#right h1{
+	text-align: center;
+}
+#right div#integrante{
+	margin: 0 50px;
+}
+
+.navegacion2
+{
+  width:1100px;
+  margin:30px auto;
+  background-image:url("imagenes/fondomenu.jfif");
+  z-index: 2;
+   font-weight:bold;	
+}
+
+.menu2 > li
+{
+  position:relative;
+  display:inline-block;
+}
+
+.menu2>li>a
+{
+  display:block;
+  padding:15px 85px;
+  color:white;
+  font-family: 'Open sans';
+  text-decoration: none;
+}
+
+.menu2 li a:hover
+{ color:#CE7D35;
+  transition: all .3s;
+} 
